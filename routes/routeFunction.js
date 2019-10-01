@@ -1,6 +1,6 @@
-const con               =    require("./database/modal");
+const con               =    require("../database/modal");
 const fs                =    require("fs");
-const mail              =    require("./Mailing_services/send_mail");
+const mail              =    require("../Mailing_services/send_mail");
 const csv               =    require('fast-csv');
 
 function extract_and_convert_to_csv(req,res){

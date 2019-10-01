@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require("body-parser");
-const routefunction = require("./routeFunction");
+const routefunction = require("./routes/routeFunction");
  
 require("./database/modal")
 
