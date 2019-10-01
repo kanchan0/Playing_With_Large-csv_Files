@@ -3,7 +3,7 @@
 
 
 # Playing_With_Large-csv_Files
-This is a express app, can be used to upload very large .csv files without overflowing the local buffer (by using stream and piping) and also when user request it we will send it to their mail.
+This is a express app(ONLY BACKEND), can be used to upload very large .csv files without overflowing the local buffer (by using stream and piping) and also when user request it we will send it to their mail.
 
 #### Setting up the project
 #### 1. Clone or download it and open it with any code editor.
