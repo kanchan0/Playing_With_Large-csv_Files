@@ -11,10 +11,11 @@ Suppose you have requested for statement from the bank,which they will mail you 
 ### Above problem state is similar to what I have done.
 
 #### Setting up the project
-#### 1. Clone or download it and open it with any code editor.
-#### 2. Run "npm install" to install all the dependencies.
-#### 3. if you look at the code you might find that config folder is missing ,it is because it contained all the id's and password
-        you can either directly give the id,password,database_name,root_password but if you want to do what
+1. Clone or download it and open it with any code editor.
+2. Run "npm install" to install all the dependencies.
+3. if you look at the code you might find that config folder is missing ,it is because it contained all the id's and password
+       
+       you can either directly give the id,password,database_name,root_password but if you want to do what
         I have done. Follow the below steps:-
          a> In the root directory(meaning the project directory) make a folder named "config"
          b> Inside that folder make a file with the name "keys.js" and in that file add the below code :--
@@ -34,7 +35,7 @@ Suppose you have requested for statement from the bank,which they will mail you 
         c> That's all you are all set except for the fact,to create a database ,a table with all the field 
                  that are in testing_data folder.Please refer to it.
                 
-  #### 4. now run the project by "nodemon server.js" OR "node server.js"
+  4. now run the project by "nodemon server.js" OR "node server.js"
   
-  ### I am expecting that you know how to hit an API and will be able to look through the parameter and header passed.
+  #### I am expecting that you know how to hit an API and will be able to look through the parameter and header passed.
   
