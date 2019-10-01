@@ -6,7 +6,7 @@
 This is a express app(ONLY BACKEND), can be used to upload very large .csv files without overflowing the local buffer (by using stream and piping) and also when user request it we will send it to their mail.
 
 I am doing this project even to show you how to keep our server from overloading.
-Suppose you have requested for bank statement from a bank,which they will mail you as soon as their server extract the data but for that they won't allow you to query continuously. Whenever the databse is ideal they will process some of the data and then keep on saving and when it will be complete ,they will mail you.
+Suppose you have requested for statement from the bank,which they will mail you as soon as their server extract the data but for that they won't allow you to query continuously. Whenever the databse is ideal they will process some of the data and then keep on saving and when it will be complete ,they will mail you.
 
 ### Above problem state is similar to what I have done.
 
